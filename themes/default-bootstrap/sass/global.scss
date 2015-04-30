@@ -6,7 +6,11 @@
 @import "theme_variables";
 @import "bootstrap";
 @import "font-awesome/font-awesome";
+
 @import "partials/icons";
+@import "partials/buttons";
+@import "partials/header";
+@import "partials/footer";
 
 a:hover {
 	text-decoration: none;
@@ -207,8 +211,6 @@ label {
 		opacity: 1;
 	}
 }
-
-@import "partials/buttons";
 
 //form
 .form-control {
